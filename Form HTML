@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <legend>MyForm
+        <Form>
+            <div class="Form">
+                <label for="name">Name</label>
+                <input type="text">
+                <br>
+                <label for="age">Age</label>
+                <input type="number">
+                <br>
+                <label for="phone">Phone</label>
+                <input type="tel">
+                <br>
+                <button type="submit" class="submit" id="submit"> Submit </button>
+                <br>
+                <label for="file">File</label>
+                <input type="file" multiple>
+                <br>
+                <label for="Male">Male</label>
+                <input type="radio">
+                <br>
+                <label for="Female">Female</label>
+                <input type="radio">
+
+            </div>
+        </Form>
+    </legend>
+</body>
